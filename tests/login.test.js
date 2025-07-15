@@ -19,7 +19,6 @@ export const options = {
 // Test implementation
 export default function () {
     const url = pegarBaseURL() + '/login'
-    console.log(postLogin)
 
     const payload = JSON.stringify(postLogin)
 
